@@ -19,7 +19,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		logger.info("여기에서 깨진거였구만 어쩐지 안되더라");
+		logger.info("팀 프로젝트 start");
 		
 		return "home";
 	}
