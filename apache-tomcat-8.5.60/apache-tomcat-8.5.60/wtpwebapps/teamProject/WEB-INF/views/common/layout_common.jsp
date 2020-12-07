@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class = "container-fluid">
-		<div class = "h-25 border">
+		<div class = "h-25">
 			<div>
 				<a id = "join" href = "#">회원가입</a>
 				<a id = "login" href = "#">로그인</a>
@@ -18,27 +18,27 @@
 		</div>
 		<div class = "menu d-flex">
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#" onclick = "onclick1();">
+				<a class = "menu_link" id = "KrFoodIntroduce" href = "#" onclick = "onclick1();">
 					<span class = "menu_name">한국요리 소개</span>
 				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">
+				<a class = "menu_link" id = "KrFoodRecipe" href = "#" onclick = "onclick2();">
 					<span class = "menu_name">한국요리 레시피</span>
 				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">
+				<a class = "menu_link" id = "Notice" href = "#" onclick = "onclick3();">
 					<span class = "menu_name">공지사항</span>
 				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">
+				<a class = "menu_link" id = "Questions" href = "#" onclick = "onclick4();">
 					<span class = "menu_name">문의사항</span>
 				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">
+				<a class = "menu_link" id = "Wish" href = "#" onclick = "onclick5();">
 					<span class = "menu_name">희망사항</span>
 				</a>
 			</div>
