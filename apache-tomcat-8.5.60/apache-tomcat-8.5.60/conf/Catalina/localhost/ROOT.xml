@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context docBase="C:\Users\mgml\Desktop\apache-tomcat-8.5.60\apache-tomcat-8.5.60\wtpwebapps\teamProject" path="" reloadable="true" source="org.eclipse.jst.jee.server:teamProject"/>
+<Context docBase="C:\teamProject\eGovFrameDev-3.10.0-64bit\workspace\teamProject\teamProject\apache-tomcat-8.5.60\apache-tomcat-8.5.60\wtpwebapps\teamProject" path="" reloadable="true" source="org.eclipse.jst.jee.server:teamProject"/>

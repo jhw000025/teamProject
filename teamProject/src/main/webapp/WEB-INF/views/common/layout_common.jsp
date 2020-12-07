@@ -11,25 +11,36 @@
 <body>
 	<div class = "container-fluid">
 		<div class = "h-25 border">
-			<!-- 로고 로그인 회원가입 부분을 여기다가 넣을생각임. -->
+			<div>
+				<a id = "join" href = "#">회원가입</a>
+				<a id = "login" href = "#">로그인</a>
+			</div>
 		</div>
 		<div class = "menu d-flex">
 			<div class = "menu_item flex-fill text-center">
 				<a class = "menu_link" href = "#" onclick = "onclick1();">
-					<span>응</span>
+					<span class = "menu_name">한국요리 소개</span>
 				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">메뉴2</a>
+				<a class = "menu_link" href = "#">
+					<span class = "menu_name">한국요리 레시피</span>
+				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">메뉴3</a>
+				<a class = "menu_link" href = "#">
+					<span class = "menu_name">공지사항</span>
+				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">메뉴4</a>
+				<a class = "menu_link" href = "#">
+					<span class = "menu_name">문의사항</span>
+				</a>
 			</div>
 			<div class = "menu_item flex-fill text-center">
-				<a class = "menu_link" href = "#">메뉴5</a>
+				<a class = "menu_link" href = "#">
+					<span class = "menu_name">희망사항</span>
+				</a>
 			</div>
 		</div>
 	</div>

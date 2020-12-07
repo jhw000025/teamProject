@@ -17,11 +17,11 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/main.action", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("팀 프로젝트 start");
 		
-		return "home";
+		return "main_page";
 	}
 	
 }
