@@ -1,0 +1,16 @@
+ SVN 연결하는 방법
+ 1. help - eclipse marketplace
+ 
+ 2. svn을 클릭후
+ 
+ 3. Subversive - SVN Team Provider을 다운받은 후
+ 
+ 4. svn kit를 다운받음.
+ 
+ 5. 프로젝트를 클릭후 team - share projects 클릭
+
+ 6.create를 클릭후 next
+
+ 7. url을 넣고 아이디와 비밀번호를 누르면 connect 연결됨.
+
+ @@@ 꼭 첨엔 update를 하고 씽크 맞춰서 commit하기
