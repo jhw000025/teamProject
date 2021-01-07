@@ -16,7 +16,7 @@
 	<!-- DB Connection을 위한 객체 생성 -->
 	<bean id = "dataSource" class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name= "driverClassName" value = "oracle.jdbc.driver.OracleDriver"/> 	<!-- oracle DB를 사용하기 위한 클래스 -->
-		<property name= "url" value = "jdbc:oracle:thin@116.121.78.43:1521:orcl"/> 		<!-- db위치 -->
+		<property name= "url" value = "jdbc:oracle:thin@localhost:1521:xe"/> 			<!-- db위치 -->
 		<property name= "username" value = "my"/> 										<!-- db의 id -->
 		<property name= "password" value = "mymy"/> 									<!-- db의 pw -->
 	</bean>
