@@ -6,6 +6,8 @@ function onclick1() {
 	$("#KrFoodIntroduce").css(
 		"background-color" , "#cccccc"
 	);
+	
+	window.location.href = "/krFoodIntroduce.action";
 }
 function onclick2() {
 	$(".menu_link").css(
