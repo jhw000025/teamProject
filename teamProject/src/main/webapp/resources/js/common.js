@@ -1,12 +1,4 @@
 function onclick1() {
-	$(".menu_link").css(
-		"background-color" , "white"
-	);
-	
-	$("#KrFoodIntroduce").css(
-		"background-color" , "#cccccc"
-	);
-	
 	window.location.href = "/krFoodIntroduce.action";
 }
 function onclick2() {

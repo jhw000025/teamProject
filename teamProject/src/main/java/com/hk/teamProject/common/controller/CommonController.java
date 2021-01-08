@@ -15,6 +15,7 @@ public class CommonController {
 	public String KrFoodIntroduce(Model model) throws Exception {
 		logger.info("한국음식 소개탭으로 이동합니다.");
 		logger.info("CommonController에 krFoodIntroduce.action입니다.");
+		model.addAttribute("name","한국음식 소개");
 		return "krFoodIntroduce";
 	}
 }
